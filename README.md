@@ -1,5 +1,3 @@
-# coming-soon
-
 ### Seytech Fullstack Software Developer Bootcamp
 
 > HTML & CSS #2nd Practice Project (Coming Soon).
