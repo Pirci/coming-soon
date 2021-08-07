@@ -1,9 +1,11 @@
+/* Defult style */
 body,
 html {
   height: 100%;
   margin: 0;
 }
 
+/* Core style */
 .container {
   background-image: url("background.jpg");
   height: 100%;
@@ -15,42 +17,6 @@ html {
   color: white;
 }
 
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  font-size: 3.6rem;
-}
-
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-  font-size: 3.6rem;
-}
-
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-  font-size: 3.6rem;
-}
-
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-  font-size: 3.6rem;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 5rem;
-}
-
 p {
   font-size: 1.6rem;
   font-weight: 200;
@@ -59,4 +25,45 @@ p {
 hr.solid {
   border-top: 1px solid rgb(86, 93, 95);
   width: 40%;
+}
+
+/* Bottom left text style */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 3.6rem;
+}
+
+/* Top left text style */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 3.6rem;
+}
+
+/* Top right text style */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 3.6rem;
+}
+
+/* Bottom right text style */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 3.6rem;
+}
+
+/* Center text style */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
 }
